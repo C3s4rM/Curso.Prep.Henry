@@ -3,6 +3,9 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+  let arreglo = [1, 2, 3, 'Uno', 'Dos', 'Tres', true, false]
+  let arr = arreglo.shift(1);
+  return arr;
 }
 
 
